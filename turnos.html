@@ -6,9 +6,171 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consulta de turnos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href=
+    "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="estilos/stylec.css">
+   
 </head>
 <body>
+    <!---Menus-->
 
+        <!--NavBar1-->
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Intranet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Webmail</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Quipux</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Directorio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Docencia</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <!--Carusel-->
+
+            <div id="carouselExample" class="carousel bg-dark slide ">
+                <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <img src="recursos/01.jpg" class="d-block w-100 h-75" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="recursos/02.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="recursos/03.jpg" class="d-block w-100" alt="...">
+                </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!--NavBar2-->
+
+            <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Hospital</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Guia del paciente</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Turnos y servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Cartera</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ">Red Publica</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+
+
+
+
+     <!--Consultas-->
+     <div class="container" name="body_form_table">
+        <div class="row">Consulta de turnos agendados</div>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label for="id_number" class="col-form-label">Número de cédula</label>
+            </div>
+            <div class="col-auto">
+              <input type="text" id="id_number" class="form-control" aria-describedby="ceduladHelpInline">
+            </div>
+            <div class="col-auto">
+              <span id="ceduladHelpInline" class="form-text">
+                La cedula debe tener 10 caracteres numericos
+              </span>
+            </div>
+          </div>    
+            <button type="button" class="btn btn-primary ">Enviar</button>
+            <div class="row">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Hora</th>
+                        <th scope="col">Especialidad</th>
+                        <th scope="col">MÉDICO</th>
+                        <th scope="col">Consultorio</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">17/02/21</th>
+                        <td>08:15</td>
+                        <td>Oftalmologia</td>
+                        <td>Dr.Patricio Estrella</td>
+                        <td>12</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">28/08/23</th>
+                        <td>10:15</td>
+                        <td>Oftalmologia</td>
+                        <td>Dr.Patricio Estrella</td>
+                        <td>18</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+     </div>
+     <!---base bottom-->
+     <div class="container-fluid " id="bottom" >
+        <div class="row">
+            <div class="col bg-warning ">
+                <a class="row">Transparencia</a>
+                <a class="row">Resoluciones</a>
+            </div>
+            <div class="col bg-info">
+                Siguenos en redes sociales:
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-youtube"></i>
+            </div>
+            <div class="col bg-light">
+                Contáctanos
+                <a>correo@hospital.com</a>
+                <a>Dirección</a>
+            </div>
+        </div>
+     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
