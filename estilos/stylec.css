@@ -1,4 +1,24 @@
-.carousel-item{
-    width: 80%;
-    height: 80%;
+
+.barra_bottom{
+    height: 100px;
+    margin-top: 10px;
+    background-color: blueviolet;
 }
+
+.icono{
+    font-size: 2rem;
+    color: aqua;
+    margin: 0 18px;
+}
+
+
+.titulo{
+    padding: 15px 0px;
+    color: #0d6efd;
+    display: flex;
+}
+
+.nav-item{
+    padding: 0 25px;
+}
+
