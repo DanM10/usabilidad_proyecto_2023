@@ -2,12 +2,12 @@
 .barra_bottom{
     height: 100px;
     margin-top: 10px;
-    background-color: blueviolet;
+
 }
 
 .icono{
     font-size: 2rem;
-    color: aqua;
+    color: #0d6efd;
     margin: 0 18px;
 }
 
