@@ -26,3 +26,10 @@
     text-decoration: none;
     color: #FFF;
 }
+
+.nav-item{
+    padding: 0 75px;
+}
+body{
+    background: #fafafa;
+}
