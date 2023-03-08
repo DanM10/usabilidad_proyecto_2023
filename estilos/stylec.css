@@ -1,16 +1,16 @@
 
 .barra_bottom{
-    height: 100px;
+    height: 150px;
     margin-top: 10px;
-    background-color: blueviolet;
+    background: #2698DC;
+    color: #FFFFFF;
+    text-decoration: none;
 }
-
 .icono{
     font-size: 2rem;
-    color: aqua;
+    color: #FFF;
     margin: 0 18px;
 }
-
 
 .titulo{
     padding: 15px 0px;
@@ -19,6 +19,17 @@
 }
 
 .nav-item{
-    padding: 0 25px;
+    padding: 0 75px;
 }
 
+body{
+    background: #fafafa;
+}
+
+.contactos{
+    background: #FFFFFF;
+}
+.texto{
+    margin-top: 15px;
+    font-size: 22px;
+}
