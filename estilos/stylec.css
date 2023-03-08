@@ -1,24 +1,39 @@
-
-.barra_bottom{
+.barra_bottom {
     height: 100px;
     margin-top: 10px;
     background-color: blueviolet;
 }
 
-.icono{
+.icono {
     font-size: 2rem;
     color: aqua;
     margin: 0 18px;
 }
 
-
-.titulo{
+.titulo {
     padding: 15px 0px;
     color: #0d6efd;
     display: flex;
 }
 
-.nav-item{
+.nav-item {
     padding: 0 25px;
 }
 
+.button {
+    background-color: #1f478d;
+    border: none;
+    color: white;
+    padding: 30px 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: #2698DC;
+}
