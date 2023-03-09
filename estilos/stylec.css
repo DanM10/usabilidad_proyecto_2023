@@ -1,11 +1,12 @@
 .barra_bottom {
-    height: 100px;
     margin-top: 10px;
     background: #2698DC;
     color: #FFFFFF;
     text-decoration: none;
 }
-
+.barra_bottom a:hover{
+    color: #1f478d;
+}
 .icono {
     font-size: 2rem;
     color: #FFF;
@@ -19,7 +20,7 @@
 }
 
 .nav-item {
-    padding: 0 25px;
+    padding: 0 75px;
 }
 
 .button {
@@ -38,4 +39,7 @@
 
 .button:hover {
     background-color: #2698DC;
+}
+#navbarNav{
+    justify-content: center;
 }
