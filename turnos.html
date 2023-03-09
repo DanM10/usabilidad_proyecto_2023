@@ -15,7 +15,7 @@
 
     <!--NavBar1-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary" style="height: 25px;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary"  style="height: 25px;">
       <div class="container-fluid" style="margin-left: 40px; padding-left: 40px;">
         <a class="navbar-brand" href="#">Inicio</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,7 +86,7 @@
               <label for="id_number" class="col-form-label ">Número de cédula</label>
             </div>
             <div class="col-auto">
-              <input type="text" id="id_number" name="cedula" class="form-control"  aria-describedby="ceduladHelpInline" autofocus>
+              <input type="text" id="id_number" name="cedula" class="form-control"  aria-describedby="ceduladHelpInline" tabindex="1">
             </div>
             <div class="col-auto">
               <span id="ceduladHelpInline" class="form-text d-block" style="padding-top: 3px;" role="alert">
@@ -95,7 +95,7 @@
             </div>
           </div>
           
-          <button  type="button" class="btn btn-primary" id="consulta" style="margin: 20px;">
+          <button  type="button" class="btn btn-primary" tabindex="1" id="consulta" style="margin: 20px;">
             Enviar
           </button>
           
@@ -104,7 +104,7 @@
                   <caption class="caption-top" style="margin-bottom: 20px; padding-left: 43%; color: #0d6efd; font-size: 25px;">Turnos asignados</caption>  
                   <thead>
                       <tr>
-                        <th scope="col">Fecha</th>
+                        <th scope="col" >Fecha</th>
                         <th scope="col">Hora</th>
                         <th scope="col">Especialidad</th>
                         <th scope="col">MÉDICO</th>
@@ -127,7 +127,7 @@
 
 
      <!---base bottom-->
-     <div class="container-fluid barra_bottom" id="bottom" >
+     <div class="container-fluid barra_bottom " tab-index="0" id="bottom" >
         <div class="row" style="padding-top: 16px;">
             <div class="col d-grid text-center ">
                 <a>Transparencia</a>

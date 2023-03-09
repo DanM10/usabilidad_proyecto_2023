@@ -39,3 +39,7 @@
 .button:hover {
     background-color: #2698DC;
 }
+
+.label.failed {
+	border: red thin solid;
+}
