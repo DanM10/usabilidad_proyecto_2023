@@ -1,7 +1,7 @@
 .barra_bottom {
     margin-top: 10px;
     background: #2698DC;
-    color: #FFFFFF;
+    color: #000000;
     text-decoration: none;
 }
 .barra_bottom a:hover{
@@ -9,7 +9,7 @@
 }
 .icono {
     font-size: 2rem;
-    color: #FFF;
+    color: #000;
     margin: 0 18px;
 }
 
