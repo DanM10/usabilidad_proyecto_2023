@@ -53,12 +53,17 @@
 .button:hover {
     background-color: #2698DC;
 }
-<<<<<<< HEAD
 
 .label.failed {
 	border: red thin solid;
-=======
+}
+
 #navbarNav{
     justify-content: center;
->>>>>>> dev
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
 }
