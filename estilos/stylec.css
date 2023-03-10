@@ -46,17 +46,24 @@
     cursor: pointer;
     border-radius: 16px;
     font-size: 20px;
+    width: 400px;
+    height: 100px;
 }
 
 .button:hover {
     background-color: #2698DC;
 }
-<<<<<<< HEAD
 
 .label.failed {
 	border: red thin solid;
-=======
+}
+
 #navbarNav{
     justify-content: center;
->>>>>>> dev
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
 }

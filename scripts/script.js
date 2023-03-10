@@ -35,6 +35,8 @@ function enviarRespuesta(){
     }else{
         editText.setAttribute("aria-invalid", "true");
     editText.classList.add('failed');
+        alert("Porfavor ingrese un numero valido")
         console.log('sdfsadf')
     }
 }
+
