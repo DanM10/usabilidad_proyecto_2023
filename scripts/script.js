@@ -35,6 +35,14 @@ function enviarRespuesta(){
     }else{
         editText.setAttribute("aria-invalid", "true");
     editText.classList.add('failed');
+        alert("Porfavor ingrese un numero valido")
         console.log('sdfsadf')
     }
+}
+
+
+function myalert() {
+    alert("Welcome to GeeksforGeeks.\n " +
+        "It is the best portal for computer" +
+                "science enthusiasts!");
 }
